@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'bison';
+    src: url(bison.ttf);
+}
+@font-face {
+    font-family: 'matter';
+    src: url(matter-light.ttf);
+}
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    
+}
+
+#loader{
+    font-family: 'bison';
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    z-index: 99;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#loader img{
+    width: 80px;
+    height: 80px;
+}
+#loader h1{
+    font-size: 80px;
+    color: black;
+}
+
+#nav{
+    background-color: black;
+    padding: 1vw;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid white ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'matter';
+    
+    
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 7vw;
+}
+#nav-part2 h1{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color ease-in 0.4s;
+}
+#nav-part2 h1:hover{
+    color: rgb(186, 134, 134);
+    
+}
+
+#logo img{
+    width: 60px;
+    height: 60px;
+
+}
+
+#nav-part3 button{
+    font-size: 16px;
+    font-family: bison;
+    border: 2px solid white;
+    background-color: rgb(0, 0, 0);
+    padding: 6px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color ease-in 0.4s;
+}
+
+#nav-part3 button:hover{
+    background-color: white;
+    color: black;
+    /* border: none; */
+    border-color: transparent;
+    
+}
+
+#thread{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    /* background-color: rebeccapurple */
+    overflow: hidden;
+}
+
+#thread h1{
+    font-family: 'bison';
+    font-size: 30vw;
+    font-weight: 700;
+    white-space: nowrap;
+    letter-spacing: -1vw;
+    
+    
+}
+
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background: url(images/page1BG.jpg);
+    background-size: cover;
+    background-color: red;
+    background-position: 230px -50px;
+}
+#heading{
+    font-family: 'bison';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#heading img{
+    width: 320px;
+    height: 150px;
+    object-fit: contain;
+}
+#heading h3{
+    letter-spacing: 1.3px;
+}
+#box1{
+    padding: 2vw 5vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+     */
+    gap: 3vw;
+}
+
+#box1 img{
+    position: relative;
+    /* animation: smoke 3s ease-in-out infinite; */
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#box1-top{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#box1-bottom{
+    margin: 2vw 0 0 1vw;
+    width: 500px;
+}
+
+#box1-bottom p{
+    line-height: 35px;
+    font-family: 'matter';
+}
+
+#playicon{
+    font-family: 'bison';
+    display: flex;
+    flex-direction: column;
+}
+#playicon i{
+    font-size: 3vw;
+    font-weight: 10;
+    color: white;
+}
+
+#playicon h5{
+    padding-left: 6px;
+    letter-spacing: 2px;
+}
+
+
+
